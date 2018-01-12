@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form validation with JavaScript</title>
+  <link rel="stylesheet" href="css/styleform.css">
+  <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+        <div class="loginBox">
+        <img src="user.png" class="user">
+        <h2>Log In Here</h2>
+                    <form onsubmit="verifyForm()">
+                        <div id="username-row">
+                            <div>
+                                <label class = "culoare">Username:</label>
+                            </div>
+                            <div>
+                                <input id="username" name="username" type="text"/>
+                            </div>
+                        </div>
+                        <div id="email-row">
+                            <div id="email">
+                                <label class = "culoare">E-mail address:</label>
+                            </div>
+                            <div>
+                                <input id="emailaddress" name="emailaddress" type="text" placeholder="mail@address.com"/>
+                            </div>
+                        </div>
+                        <div id="password-row" >
+                            <div>
+                                <label class = "culoare">Password:</label>
+                            </div>
+                            <div>
+                                <input id="password" name="password" type="text"/>
+                            </div>
+                        </div>
+            
+                                 <div>
+                                    <button id="submit-button"  type="button" class="submit-button" onclick="verifyForm()" >Confirm dates</button>
+                                    <button id="submit-button"  type="button" class="submit-button" onclick="window.location='joc.html'">Go to game</button>
+                                </div>
+                    </form>
+                        
+                </div>
+
+           
+</body>
+</html>

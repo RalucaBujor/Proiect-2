@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Game</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/javascript.js"></script>
+
+</head>
+<body>
+
+<h1 align = "center">Matching game</h1>
+
+  
+<div id="memory_board"></div>
+<script>newBoard();</script>
+
+ <h2>Note: The file submitted will be publicly accessible. London GIFs only!</h2>
+  
+<form id="ajax-upload" action="http://posttestserver.com/post.php?dir=example" method="post" enctype="multipart/form-data">
+File: <input type="file" name="submitted">
+<input type="hidden" name="someParam" value="someValue"/>
+  <button type="submit">Send via AJAX!</button>
+</form>
+  <div>
+    Copy/Paste the URL below to see the uploaded file 
+    <div id="result"></div>
+  </div>  
+</body>
+</html>
+
